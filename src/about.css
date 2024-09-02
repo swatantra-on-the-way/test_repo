@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+@font-face{
+    font-family: "InkVerse";
+    src: url("./fonts/InkVerse.woff2") format("woff2"),
+         url("./fonts/InkVerse.woff") format("woff");
+         font-weight: 600;
+         font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Metro Regular';
+    src: url('./fonts/metro-webfont.woff2') format('woff2'),
+         url('./fonts/metro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.about-page-container{
+    background-color: #09090b;
+    color: #f1f5f9;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px 0 10px 0;
+    width: 600px;
+    text-align: center;
+    box-shadow: 20px 20px 30px 5px indianred inset;
+}
+
+.page-heading{
+    font-family: "Metro Regular", sans-serif;
+    text-wrap: wrap;
+    font-size: 1.8rem;
+    text-shadow: 5px 5px 5px rebeccapurple;
+}
+
+.intro-div{
+    font-family: "InkVerse", sans-serif;
+    font-size: 1.2rem;
+    padding: 0 25px 0 25px;
+    color: #fdba74;
+}
+
+.member-container{
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.meet-us{
+    font-family: "Metro Regular";
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 4px burlywood;
+    color: #fde68a;
+}
+
+.member-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+#member1, #member2{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.profile-image{
+    width: 30%;
+    height: 130px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 12px 2px lightblue;
+}
+
+#member1 > .profile-image{
+    background-image: url("./images/profile1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#member2 > .profile-image{
+    background-image: url("./images/profile2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px 0 5px;
+}
+
+.profile-quote{
+    text-align: left;
+    font-family: "InkVerse", sans-serif;
+    font-size: 1.1rem;
+    color: #ecfccb;
+}
+
+.profile-name{
+    align-self: flex-end;
+    font-family: "HandJet";
+    font-size: 1.4rem;
+    color: #86efac;
+}
+
+
+
+
+
+
+
